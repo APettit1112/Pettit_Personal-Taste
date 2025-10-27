@@ -54,7 +54,8 @@ for (let i = 0 < friendFavorites.length; i++) {
 
 
 // 6. Store the result in an array called foodsWithA. Print out the array.
-
+let foodsWithA = friendFavorites.filter(food => food.toLowerCase().includes("a"));
+console.log(foodWithA);
 
 
 // 7. Create a new array longFoodNames for foods with names longer than 6 characters.
