@@ -16,7 +16,7 @@ for (let i = 0; i < favoriteFoods.length; i++) {
 // "My #2 favorite food is Sushi"
 // ...etc.
 for (let i = 0; i < favoriteFoods.length; i++) {
-  console.log('My #${i + 1} favorite food is ${favoriteFoods[i]}.');
+  console.log(`My #${i + 1} favorite food is ${favoriteFoods[i]}.`);
 }
 
 
